@@ -14,6 +14,7 @@ import {
   User,
   X,
 } from "lucide-react";
+import logo from "../assets/logo.svg";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -48,14 +49,12 @@ const Header = () => {
     <>
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            {/* Logo */}
+          <div className="flex items-center justify-between h-20">
             <div
-              className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
+              className="flex items-center gap-2 cursor-pointer "
               onClick={handleLogoClick}
             >
-              <Eye className="h-8 w-8 text-teal-600" />
-              <span className="text-2xl font-bold text-gray-900">MEC</span>
+              <img className="w-20 h-20" src={logo} alt="" />
             </div>
 
             {/* Desktop Navigation */}
@@ -140,9 +139,8 @@ const Header = () => {
             {/* Mobile Menu Header */}
             <div className="flex items-center justify-between p-6 border-b bg-gradient-to-r from-teal-50 to-blue-50">
               <div className="flex items-center gap-2">
-                <Eye className="h-7 w-7 text-teal-600" />
-                <span className="text-xl font-bold text-gray-900">MEC</span>
               </div>
+              <img className="w-40 h-40" src={logo} alt="" />
               <button
                 onClick={() => setMobileMenuOpen(false)}
                 className="p-2 hover:bg-white/50 rounded-full transition"
@@ -170,17 +168,6 @@ const Header = () => {
                 })}
               </div>
             </nav>
-
-            {/* Mobile Menu Footer */}
-            <div className="p-6 border-t bg-gray-50">
-              <button
-                onClick={handleBookAppointment}
-                className="w-full bg-gradient-to-r from-teal-600 to-blue-600 text-white py-3 rounded-xl font-semibold hover:from-teal-700 hover:to-blue-700 transition-all duration-300 shadow-lg flex items-center justify-center gap-2"
-              >
-                <Calendar className="h-5 w-5" />
-                Book Appointment
-              </button>
-            </div>
           </div>
         </div>
       </header>

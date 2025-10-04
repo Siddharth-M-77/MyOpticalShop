@@ -1,4 +1,5 @@
 import { Eye, Phone, Mail, MapPin } from "lucide-react";
+import logo from "../assets/logo.svg";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -6,12 +7,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Eye className="h-8 w-8 text-teal-400" />
               <span
                 className="text-2xl font-bold"
                 onClick={() => window.scrollTo(0, 0)}
               >
-                MaddheshiyaEyeCare
+                <img className="w-40 h-40 rounded-full bg-white" src={logo} alt="" />
               </span>
             </div>
             <p className="text-gray-400 mb-4">
