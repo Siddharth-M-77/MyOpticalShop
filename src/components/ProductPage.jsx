@@ -84,34 +84,7 @@ const ProductsPage = () => {
       reviews: 201,
       tag: "Best Seller",
     },
-    {
-      id: 6,
-      name: "Oversized Square",
-      price: 2199,
-      originalPrice: 2699,
-      image:
-        "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=400&h=400&fit=crop",
-      category: "sunglasses",
-      gender: "women",
-      shape: "square",
-      rating: 4.6,
-      reviews: 89,
-      tag: "",
-    },
-    {
-      id: 7,
-      name: "Rimless Titanium",
-      price: 4999,
-      originalPrice: 5999,
-      image:
-        "https://images.unsplash.com/photo-1622519407650-3df9883f76c5?w=400&h=400&fit=crop",
-      category: "eyeglasses",
-      gender: "men",
-      shape: "rectangular",
-      rating: 4.9,
-      reviews: 134,
-      tag: "Premium",
-    },
+
     {
       id: 8,
       name: "Retro Oval Brown",

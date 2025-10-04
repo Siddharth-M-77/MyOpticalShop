@@ -40,7 +40,7 @@ const ProductDetailPage = () => {
       "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1577803645773-f96470509666?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop",
+    // "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop",
     ],
     colors: [
       { name: "black", hex: "#000000", label: "Matte Black" },

@@ -121,13 +121,13 @@ const ContactUsPage = () => {
               href="tel:+911234567890"
               className="text-teal-600 font-bold text-xl hover:text-teal-700 transition block mb-3"
             >
-              +91 123 456 7890
+              +91 7309759015
             </a>
             <a
               href="tel:+919876543210"
               className="text-gray-700 font-semibold hover:text-teal-600 transition block"
             >
-              +91 987 654 3210
+              +91 7309759015
             </a>
             <div className="mt-6 pt-6 border-t border-gray-200">
               <p className="text-sm text-gray-500">Emergency: 24/7 Available</p>
@@ -148,7 +148,7 @@ const ContactUsPage = () => {
               href="mailto:info@visioncare.com"
               className="text-purple-600 font-bold text-xl hover:text-purple-700 transition block mb-3 break-all"
             >
-              info@visioncare.com
+              info@maddhehsiyaeyecare.com
             </a>
             <a
               href="mailto:support@visioncare.com"
@@ -170,7 +170,7 @@ const ContactUsPage = () => {
             </h3>
             <p className="text-gray-600 mb-6 text-lg">Come see us in person</p>
             <p className="text-orange-600 font-bold text-lg leading-relaxed">
-              123 Medical Plaza, MP Nagar, Bhopal, MP 462011
+              Baghauli Bazar ,Khalilabad ,Sant kabir Nagar ,Uttar Pradesh
             </p>
             <div className="mt-6 pt-6 border-t border-gray-200">
               <p className="text-sm text-gray-500">Free Parking Available</p>
@@ -328,7 +328,7 @@ const ContactUsPage = () => {
                   </span>
                 </div>
                 <div className="flex justify-between items-center pb-4 border-b border-white/20">
-                  <span className="font-semibold text-lg">Saturday</span>
+                  <span className="font-semibold text-lg">Sunday</span>
                   <span className="text-teal-100 font-medium">
                     10:00 AM - 4:00 PM
                   </span>
@@ -460,7 +460,7 @@ const ContactUsPage = () => {
                 <div className="bg-purple-100 p-3 rounded-xl">
                   <Phone className="h-6 w-6 text-purple-600" />
                 </div>
-                <span className="font-bold text-lg">+91 9696607477</span>
+                <span className="font-bold text-lg">+91 7309759015</span>
               </div>
             </div>
           </div>

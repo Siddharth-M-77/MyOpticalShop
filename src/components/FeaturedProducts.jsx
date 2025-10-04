@@ -67,7 +67,7 @@ const FeaturedProducts = () => {
                   {product.category}
                 </div>
                 <button
-                  onClick={() => navigate(`/products/${product.id}`)}
+                  onClick={() => navigate(`/products/details`)}
                   className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-teal-600 px-6 py-2 rounded-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300"
                 >
                   Quick View
