@@ -394,7 +394,7 @@ const ProductsPage = () => {
                     {/* Quick Actions */}
                     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition duration-300 flex gap-2">
                       <button
-                        onClick={() => navigate(`/product/details`)}
+                        onClick={() => navigate(`/products/details`)}
                         className="bg-white text-teal-600 px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-teal-600 hover:text-white transition"
                       >
                         Quick View
