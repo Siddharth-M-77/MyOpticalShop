@@ -320,26 +320,6 @@ const Hero = () => {
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Select Doctor *
-                  </label>
-                  <select
-                    name="doctor"
-                    value={formData.doctor}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
-                  >
-                    <option value="">Choose a doctor</option>
-                    {doctors.map((doctor, idx) => (
-                      <option key={idx} value={doctor}>
-                        {doctor}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
                     Brief Description of Concern
                   </label>
                   <textarea
